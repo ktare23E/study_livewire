@@ -12,6 +12,8 @@
 
     </head>
     <body class="font-sans antialiased dark:bg-black dark:text-white/50">
-        <livewire:hello-world>
+        {{-- <livewire:hello-world>
+        <livewire:test-action> --}}
+        <livewire:counter>
     </body>
 </html>
