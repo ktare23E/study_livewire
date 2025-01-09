@@ -16,6 +16,18 @@ class Counter extends Component
         $this->count--;
     }
 
+    public function triggerAlert(){
+        $this->dispatch('alert', ['message' => 'This is a Livewire alert!']);
+    }
+
+    public function swal(){
+        $this->dispatch('swal:alert',[
+            'type' => 'success',
+            'message' => 'Test Sweet Alert',
+            'text' => 'You have successfully triggered an alert'
+        ]);
+    }
+
     public function render()
     {
         return view('livewire.counter');
