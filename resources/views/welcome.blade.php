@@ -16,8 +16,6 @@
 
     </head>
     <body class="">
-        {{-- <livewire:hello-world>
-        <livewire:test-action> --}}
-        <livewire:counter>
+        <livewire:todos>
     </body>
 </html>
